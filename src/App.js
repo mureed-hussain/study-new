@@ -1,12 +1,11 @@
 import React from "react";
-import Map from "./Map";
-import NewStudy from "./NewStudy";
+import Header from "./Components/Header";
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <NewStudy />
-      <Map />
+    <div className="container">
+      <Header />
     </div>
   );
 };
